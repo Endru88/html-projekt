@@ -7,7 +7,7 @@ main{
     width:1160px;
     margin:20px auto;
     padding:20px;
-    background-color: rgba(255, 255, 255, 0.445);
+    background-color: rgba(255, 255, 255, 0.774);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 h1{
@@ -25,6 +25,7 @@ text-align: center;
 font-size: 40px;
 padding: 10px;
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+background-color: rgba(124, 124, 124, 0.863);
 }
 body {
     min-height: 100%;
@@ -39,7 +40,27 @@ body {
 footer{
     padding: 1px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgba(124, 124, 124, 0.863);
   }
   .center{
       text-align: center;
   }
+table,
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+img {
+    width: 200px;
+}
+header{
+    padding: 1px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgba(124, 124, 124, 0.863);
+}
+body{
+    background-image: url(../img/custome.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
